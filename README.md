@@ -1,5 +1,8 @@
 # TypeORM Migration Helper
 
+[![NPM version](https://img.shields.io/npm/v/typeorm-migration-helper.svg?style=flat-square)](https://www.npmjs.com/package/typeorm-migration-helper) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 Um CLI simples e poderoso para facilitar a criação, execução e reversão de migrations com TypeORM. Foco em produtividade, clareza e uma experiência de desenvolvimento amigável.
 
 ## ✨ Visão Geral
