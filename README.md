@@ -1,6 +1,6 @@
 # TypeORM Migration Helper
 
-Um CLI simples e poderoso para facilitar a criação, execução e reversão de migrations com TypeORM. Foco em produtividade, clareza e uma experiência de desenvolvimento amigável.
+Um CLI simples para facilitar a criação, execução e reversão de migrations com TypeORM. Foco em produtividade, clareza e uma experiência de desenvolvimento amigável.
 
 ## ✨ Visão Geral
 
@@ -82,6 +82,10 @@ Cria um novo arquivo de migration baseado nas diferenças entre suas entidades (
 
 ```bash
 npx typeorm-migration-helper generate <NomeDaMigration>
+
+# ou
+
+npx tmh generate <NomeDaMigration>
 ```
 
 * `<NomeDaMigration>`: Um nome descritivo em CamelCase (ex: `CreateUserTable`, `AddEmailToUser`).
@@ -97,6 +101,10 @@ npx typeorm-migration-helper generate <NomeDaMigration>
 ```bash
 # Exemplo com opções
 npx typeorm-migration-helper generate AddUserRole -m ./db/migrations -d ./src/db-config.ts
+
+# ou
+
+npx tmh generate generate AddUserRole -m ./db/migrations -d ./src/db-config.ts
 ```
 
 ### Executar Migrations Pendentes (`run`)
@@ -105,6 +113,10 @@ Aplica todas as migrations que ainda não foram executadas no banco de dados.
 
 ```bash
 npx typeorm-migration-helper run
+
+# ou
+
+npx tmh run
 ```
 
 **Opções:**
@@ -114,6 +126,10 @@ npx typeorm-migration-helper run
 ```bash
 # Exemplo com opção
 npx typeorm-migration-helper run -d ./src/db-config.ts
+
+# ou
+
+npx tmh run -d ./src/db-config.ts
 ```
 
 ### Reverter a Última Migration (`revert`)
@@ -122,6 +138,10 @@ Desfaz a última migration que foi aplicada com sucesso.
 
 ```bash
 npx typeorm-migration-helper revert
+
+# ou
+
+npx tmh revert
 ```
 
 **Opções:**
@@ -131,6 +151,10 @@ npx typeorm-migration-helper revert
 ```bash
 # Exemplo com opção
 npx typeorm-migration-helper revert -d ./src/db-config.ts
+
+# ou
+
+npx tmh revert -d ./src/db-config.ts
 ```
 
 ## 🤔 Solução de Problemas
@@ -138,8 +162,6 @@ npx typeorm-migration-helper revert -d ./src/db-config.ts
 *   **Erro `Cannot find module 'ts-node'`**: Instale `ts-node` como dependência de desenvolvimento: `npm install --save-dev ts-node`.
 *   **Erro `Unable to open file: ... data-source.ts`**: Verifique se o caminho para o `DataSource` está correto (use a opção `-d` se necessário) e se o arquivo não contém erros de sintaxe TypeScript.
 *   **`No changes in database schema were found` ao usar `generate`**: Certifique-se de que você definiu entidades no array `entities` do seu `DataSource` e que existem alterações nessas entidades que ainda não foram migradas.
-
-Claro, Daniel! Aqui está uma versão aprimorada da seção **Contribuição** do seu `README.md`, com um tom acolhedor e profissional, incentivando a colaboração e já incluindo o link para o repositório:
 
 ---
 
