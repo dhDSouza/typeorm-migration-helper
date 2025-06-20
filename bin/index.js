@@ -8,9 +8,9 @@ const revert_1 = require("./commands/revert");
 const logger_1 = require("./utils/logger");
 const program = new commander_1.Command();
 program
-    .name('typeorm-migration-helper')
+    .name('typeorm-migration-helper (alias tmh)')
     .description('🧙 Helper CLI para gerenciar migrations no TypeORM')
-    .version('1.0.0');
+    .version('1.0.2');
 const defaultMigrationsDir = './src/migrations';
 const defaultDataSource = './src/config/data-source.ts';
 program

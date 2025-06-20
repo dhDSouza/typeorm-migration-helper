@@ -1,6 +1,6 @@
 {
   "name": "typeorm-migration-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Um CLI simples e poderoso para facilitar a criação, execução e reversão de migrations com TypeORM.   Foco em produtividade, clareza e uma UX amigável.",
   "keywords": [
     "typeorm",
@@ -19,7 +19,7 @@
     "migration revert"
   ],
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=22.0.0"
   },
   "files": [
     "bin",
@@ -40,7 +40,8 @@
   "type": "commonjs",
   "main": "bin/index.js",
   "bin": {
-    "typeorm-migration-helper": "./bin/index.js"
+    "typeorm-migration-helper": "./bin/index.js",
+    "tmh": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

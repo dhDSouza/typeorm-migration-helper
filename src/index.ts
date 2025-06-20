@@ -9,9 +9,9 @@ import { logger } from './utils/logger';
 const program = new Command();
 
 program
-    .name('typeorm-migration-helper')
+    .name('typeorm-migration-helper (alias tmh)')
     .description('🧙 Helper CLI para gerenciar migrations no TypeORM')
-    .version('1.0.0');
+    .version('1.0.2');  
 
 const defaultMigrationsDir = './src/migrations';
 const defaultDataSource = './src/config/data-source.ts';
