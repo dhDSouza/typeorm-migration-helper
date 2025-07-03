@@ -5,6 +5,9 @@
 ![Downloads](https://img.shields.io/npm/dt/typeorm-migration-helper)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
 
+> [!NOTE]  
+> Esta documentação está em português. [Veja a versão em inglês aqui](./README-en.md) 
+
 Um CLI simples e poderoso para facilitar a criação, execução e reversão de migrations com TypeORM. Foco em produtividade, clareza e uma experiência de desenvolvimento amigável.
 
 ## ✨ Visão Geral
