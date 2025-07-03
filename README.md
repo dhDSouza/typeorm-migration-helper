@@ -1,5 +1,6 @@
 # TypeORM Migration Helper
 
+![Downloads](https://img.shields.io/npm/dt/typeorm-migration-helper)
 [![NPM version](https://img.shields.io/npm/v/typeorm-migration-helper.svg?style=flat-square)](https://www.npmjs.com/package/typeorm-migration-helper) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
